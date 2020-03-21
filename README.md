@@ -1,15 +1,16 @@
-[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
+# Portfolio Site
 
+<!-- background image 2264 x 1504 -->
 
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+---
 
-## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+- Theme from [Rahul Bhatia](https://github.com/rbhatia46/React-Portfolio)
 
-## How to use
-1. Clone/Download the repo.
-2. Run  ``` npm install ```.
-3. Change the values in ```src/resumeData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/resumeData.js``` to suit your needs.
+---
 
+Previous verions of my portfolio site
+
+- [Ver 1](https://github.com/EllieChen-Git/Portfolio-Site_Ellie-Chen): A portfolio site built on pure HTML5, CSS3, SCCC and a little bit JavaScript. This is one of the student projects I built while I was studying with Coder Academy. I only learned coding for a month at the time I built it.
+
+- [Ver 2](https://github.com/EllieChen-Git/React-Practice-Portfolio-Site) with React, Material UI, Bootstrap: A React practice by following YouTube tutorail.
+- [Ver 3](): The current portfolio website.
