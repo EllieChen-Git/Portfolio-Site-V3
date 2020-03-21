@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+
 export default class Portfolio extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -65,28 +67,28 @@ export default class Portfolio extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Skills</span>
+              <span>Tech Stacks</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
-            <p>{portfolioData.skillsDescription}</p>
-
-            <div className="bars">
-              <ul className="skills">
-                {portfolioData.skills &&
-                  portfolioData.skills.map(item => {
-                    return (
-                      <li>
-                        {/* <span
-                        className={`bar-expand ${item.skillname.toLowerCase()}`}
-                      ></span> */}
-                        <em>{item.skillname}</em>
-                      </li>
-                    );
-                  })}
-              </ul>
-            </div>
+            <ul className="skills">
+              {portfolioData.skills &&
+                portfolioData.skills.map(item => {
+                  return (
+                    <Container>
+                      <Row>
+                        <Col>
+                          <p>{item.skillsDescription}</p>
+                          <li>
+                            <em>{item.skillname}</em>
+                          </li>
+                        </Col>
+                      </Row>
+                    </Container>
+                  );
+                })}
+            </ul>
           </div>
         </div>
       </section>

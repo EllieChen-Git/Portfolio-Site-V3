@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 export default class Projects extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -6,7 +6,7 @@ export default class Projects extends Component {
       <section id="projects">
         <div className="row">
           <div className="twelve columns collapsed">
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Find Out More about My Projects</h1>
             <div
               id="projects-wrapper"
               className="bgrid-quarters s-bgrid-thirds cf"

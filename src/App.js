@@ -1,11 +1,12 @@
-import React, { Component } from "react";
-import NavBar from "./components/NavBar";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import portfolioData from "./portfolioData";
+import React, { Component } from 'react';
+import NavBar from './components/NavBar';
+import About from './components/About';
+import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
+import portfolioData from './portfolioData';
+
 class App extends Component {
   render() {
     return (

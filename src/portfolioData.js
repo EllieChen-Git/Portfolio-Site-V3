@@ -102,57 +102,46 @@ let portfolioData = {
       `
     }
   ],
-  skillsDescription: 'Tech Stacks',
   skills: [
     {
-      skillname: 'HTML5'
+      skillsDescription: 'Programming Languages',
+      skillname: 'Ruby, JavaScript & TypeScript'
     },
     {
-      skillname: 'CSS3'
+      skillsDescription: 'Front End',
+      skillname: 'HTML5, CSS3, SCSS, React, Angular, Bootstrap, Material UI'
     },
     {
-      skillname: 'Ruby on Rails'
+      skillsDescription: 'Back End',
+      skillname:
+        'Ruby on Rails, Express.js, MongoDB, Node.js, REST API, Postgres SQL, Hasura'
     },
     {
-      skillname: 'JavaScript'
-    },
-    {
-      skillname: 'MERN stack'
-    },
-    {
-      skillname: 'TypeScript'
+      skillsDescription: 'Dependencies',
+      skillname:
+        'Git collaboration, GitHub, AWS (S3, IAM), deployment platforms (Heroku, Netlify), payment processing service (Stripe), wireframe (Balsamiq)'
     }
   ],
   projects: [
     {
       name: 'project1',
       description: 'mobileapp',
-      imgurl: 'jpg'
+      imgurl: 'http://placecorgi.com/300/300'
     },
     {
       name: 'project2',
       description: 'mobileapp',
-      imgurl: 'jpg'
+      imgurl: 'http://placecorgi.com/300/300'
     },
     {
       name: 'project3',
       description: 'mobileapp',
-      imgurl: 'jpg'
+      imgurl: 'http://placecorgi.com/300/300'
     },
     {
       name: 'project4',
       description: 'mobileapp',
-      imgurl: 'jpg'
-    }
-  ],
-  testimonials: [
-    {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy'
-    },
-    {
-      description: 'This is a sample testimonial',
-      name: 'Some technical guy'
+      imgurl: 'http://placecorgi.com/300/300'
     }
   ]
 };
