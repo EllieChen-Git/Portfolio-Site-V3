@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-export default class Header extends Component {
+export default class NavBar extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
     return (
@@ -44,18 +44,27 @@ export default class Header extends Component {
           <div className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">
-                I am {portfolioData.name} :)
+                Hi, I am {portfolioData.name} :)
               </h1>
               <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 {portfolioData.intro}
+                <br />
+                <span>--------------------------------------------</span>
+                <br />
+                {portfolioData.location}
               </h3>
               <hr />
+
               <ul className="social">
                 {portfolioData.socialLinks &&
                   portfolioData.socialLinks.map(item => {
                     return (
                       <li key={item.name}>
-                        <a href={item.url} target="_blank">
+                        <a
+                          href={item.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className={item.className}></i>
                         </a>
                       </li>

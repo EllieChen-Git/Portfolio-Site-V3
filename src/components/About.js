@@ -13,18 +13,17 @@ export default class About extends Component {
             <h2>About Me</h2>
             <p>{portfolioData.aboutme}</p>
 
-            <div className="row">
+            {/* <div className="row">
               <div className="columns contact-details">
                 <h2>Contact Details</h2>
-                {/* <p className="address"> */}
+
                 <span>{portfolioData.name}</span>
                 <br></br>
-                <span>{portfolioData.location}</span>
+
                 <br></br>
                 <span>{portfolioData.website}</span>
-                {/* </p> */}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

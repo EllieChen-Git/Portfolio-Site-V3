@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -21,7 +21,7 @@ export default class Portfolio extends Component {
                       <p className="info">{item.universityName}</p>
                       <p>
                         <em className="date">
-                          {item.monthOfStarted} {item.yearOfStarted} -{" "}
+                          {item.monthOfStarted} {item.yearOfStarted} -{' '}
                           {item.monthOfCompleted} {item.yearOfCompleted}
                         </em>
                         <span>&bull;</span> {item.GPA}
@@ -35,7 +35,7 @@ export default class Portfolio extends Component {
         <div className="row work">
           <div className="three columns header-col">
             <h1>
-              <span>Work</span>
+              <span>Experience</span>
             </h1>
           </div>
 
@@ -48,9 +48,9 @@ export default class Portfolio extends Component {
                       <h3>{item.companyName}</h3>
                       <p className="info">
                         {item.postionName}
-                        <span>&bull;</span>{" "}
+                        <span>&bull;</span>{' '}
                         <em className="date">
-                          {item.monthOfStarted} {item.yearOfStarted} -{" "}
+                          {item.monthOfStarted} {item.yearOfStarted} -{' '}
                           {item.monthOfCompleted} {item.yearOfCompleted}
                         </em>
                       </p>
