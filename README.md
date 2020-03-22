@@ -1,6 +1,6 @@
 # Portfolio Site
 
----
+## <!--remember to delete code related to REACT_APP_FORMSPREE_ID -->
 
 - Built on template from [Rahul Bhatia](https://github.com/rbhatia46/React-Portfolio)
 
@@ -36,6 +36,13 @@ tablet styling
    "react-dom": "^16.6.0",
 
 <!-- https://stackoverflow.com/questions/58688463/getting-uncaught-typeerror-object-is-not-a-function-in-themeprovider-js-of -->
+
+2. I tried to create an environment variable to store a piece of information, but failed to do so.
+
+1. With React, the environment variable needs to start with 'REACT*APP*'
+1. I need to re-start my server evert time I change my .env file
+   which I did learn about this while I was with Coder Academy, but I guess I'll never forget about this after this time
+   https://create-react-app.dev/docs/adding-custom-environment-variables/
 
 ---
 
