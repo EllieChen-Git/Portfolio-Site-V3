@@ -25,8 +25,8 @@ export default class Portfolio extends Component {
                         <em className="date">
                           {item.monthOfStarted} {item.yearOfStarted} -{' '}
                           {item.monthOfCompleted} {item.yearOfCompleted}
-                        </em>
-                        <span>&bull;</span> {item.GPA}
+                        </em>{' '}
+                        | {item.GPA}
                       </p>
                     </div>
                   </div>
@@ -76,16 +76,12 @@ export default class Portfolio extends Component {
               {portfolioData.skills &&
                 portfolioData.skills.map(item => {
                   return (
-                    <Container>
-                      <Row>
-                        <Col>
-                          <p>{item.skillsDescription}</p>
-                          <li>
-                            <em>{item.skillname}</em>
-                          </li>
-                        </Col>
-                      </Row>
-                    </Container>
+                    <>
+                      <p>{item.skillsDescription}</p>
+                      <li>
+                        <em>{item.skillname}</em>
+                      </li>
+                    </>
                   );
                 })}
             </ul>

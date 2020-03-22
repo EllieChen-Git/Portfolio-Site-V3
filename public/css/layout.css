@@ -34,7 +34,8 @@ header {
   height: 800px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(../images/header-background.jfif) no-repeat top center;
+  background: #161415 url(../images/background-mountains.jfif) no-repeat top
+    center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
@@ -141,7 +142,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 20px 'opensans-bold', sans-serif;
+  font: 15px 'opensans-bold', sans-serif;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -324,7 +325,7 @@ ul#nav li.current a {
 /*----------------------------------------------*/
 
 .skills {
-  margin-top: 36px;
+  /* margin-top: 36px; */
   list-style: none;
 }
 
@@ -484,16 +485,26 @@ ul#nav li.current a {
   margin-bottom: 48px;
   color: #95a3a3;
 }
+#projects h5 {
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+#projects .projects-button {
+  /* margin-bottom: 20px; */
+  position: relative;
+  top: 10px;
+  margin: 0px 5px;
+}
 
 /* Projects Content */
-#projects-wrapper .columns {
+/* #projects-wrapper .columns {
   margin-bottom: 36px;
-}
+} */
 .projects-item .item-wrap {
   background: #fff;
   overflow: hidden;
   position: relative;
-
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;

@@ -1,9 +1,5 @@
 let portfolioData = {
-  // "imagebaseurl":"https://rbhatia46.github.io/",
   name: 'Ellie Chen',
-  // role: "Full Stack Developer who enjoyr break down frontend compoments!",
-  // linkedinId: "Your LinkedIn Id",
-  // skypeid: "Your skypeid",
   intro:
     "I am a Full Stack Developer who enjoy the process of breaking down frontend compoments! I have an inquisitive mind and enjoy turning challenges into adventures! I'm passionate about coding and helping others to achieve their goals in life!",
   socialLinks: [
@@ -64,15 +60,6 @@ let portfolioData = {
       yearOfCompleted: '2016',
       GPA: 'High Distinction Average'
     }
-    // {
-    //   universityName: "Macquarie University",
-    //   degreeName: "Postgraduate Diploma of Translating and Interpreting",
-    //   monthOfStarted: "Aug",
-    //   yearOfStarted: "2014",
-    //   monthOfCompleted: "Jul",
-    //   yearOfCompleted: "2015",
-    //   GPA: "Distinction Average"
-    // }
   ],
   work: [
     {
@@ -105,7 +92,7 @@ let portfolioData = {
   skills: [
     {
       skillsDescription: 'Programming Languages',
-      skillname: 'Ruby, JavaScript & TypeScript'
+      skillname: 'Ruby, JavaScript, TypeScript'
     },
     {
       skillsDescription: 'Front End',
@@ -119,29 +106,39 @@ let portfolioData = {
     {
       skillsDescription: 'Dependencies',
       skillname:
-        'Git collaboration, GitHub, AWS (S3, IAM), deployment platforms (Heroku, Netlify), payment processing service (Stripe), wireframe (Balsamiq)'
+        'Git, GitHub, AWS (S3, IAM), deployment (Heroku, Netlify), payment processing (Stripe), wireframe (Balsamiq)'
     }
   ],
   projects: [
     {
-      name: 'project1',
-      description: 'mobileapp',
-      imgurl: 'http://placecorgi.com/300/300'
+      name: 'Portfolio Site Ver 3.0',
+      description: 'Portfolio built on React',
+      imgurl: '../images/projects/portfolio-site-v3.JPG',
+      source: 'https://github.com/EllieChen-Git/Portfolio-Site-V3',
+      site: '#'
     },
     {
-      name: 'project2',
-      description: 'mobileapp',
-      imgurl: 'http://placecorgi.com/300/300'
+      name: 'Pricing Portal',
+      description: 'Full MERN stack business solution',
+      imgurl: '../images/projects/pricing-portal.JPG',
+      source: 'https://github.com/EllieChen-Git/frontend-pricing-portal-ERN',
+      site:
+        'http://pricing-portal-prod-ern.s3-website-ap-southeast-2.amazonaws.com/'
     },
     {
-      name: 'project3',
-      description: 'mobileapp',
-      imgurl: 'http://placecorgi.com/300/300'
+      name: 'Aussie Beauty Market',
+      description: 'Two-sided makeup marketplace on Ruby on Rails',
+      imgurl: '../images/projects/aussie-beauty-market.png',
+      source: 'https://github.com/EllieChen-Git/Aussie-Beauty-Market',
+      site: 'https://aussie-beauty-market.herokuapp.com/'
     },
+
     {
-      name: 'project4',
-      description: 'mobileapp',
-      imgurl: 'http://placecorgi.com/300/300'
+      name: 'Portfolio Site Ver 1.0',
+      description: 'Portfolio built on HTML5 & CSS3',
+      imgurl: '../images/projects/portfolio-site-v1.JPG',
+      source: 'https://github.com/EllieChen-Git/Portfolio-Site_Ellie-Chen',
+      site: 'https://elliechen.netlify.com/'
     }
   ]
 };

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 export default class NavBar extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -46,11 +46,9 @@ export default class NavBar extends Component {
               <h1 className="responsive-headline">
                 Hi, I am {portfolioData.name} :)
               </h1>
-              <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
+              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
                 {portfolioData.intro}
-                <br />
-                <span>--------------------------------------------</span>
-                <br />
+                <hr />
                 {portfolioData.location}
               </h3>
               <hr />
