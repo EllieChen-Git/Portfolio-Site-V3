@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 
 export default class Portfolio extends Component {
   render() {
@@ -23,10 +22,10 @@ export default class Portfolio extends Component {
                       <p className="info">{item.universityName}</p>
                       <p>
                         <em className="date">
-                          {item.monthOfStarted} {item.yearOfStarted} -{' '}
-                          {item.monthOfCompleted} {item.yearOfCompleted}
+                          {item.monthStarted} {item.yearStarted} -{' '}
+                          {item.monthCompleted} {item.yearCompleted}
                         </em>{' '}
-                        | {item.GPA}
+                        | {item.grade}
                       </p>
                     </div>
                   </div>
@@ -49,11 +48,11 @@ export default class Portfolio extends Component {
                     <div className="twelve columns">
                       <h3>{item.companyName}</h3>
                       <p className="info">
-                        {item.postionName}
+                        {item.positionName}
                         <span>&bull;</span>{' '}
                         <em className="date">
-                          {item.monthOfStarted} {item.yearOfStarted} -{' '}
-                          {item.monthOfCompleted} {item.yearOfCompleted}
+                          {item.monthStarted} {item.yearStarted} -{' '}
+                          {item.monthCompleted} {item.yearCompleted}
                         </em>
                       </p>
                       <p>{item.positionDescription}</p>
@@ -79,7 +78,7 @@ export default class Portfolio extends Component {
                     <>
                       <p>{item.skillsDescription}</p>
                       <li>
-                        <em>{item.skillname}</em>
+                        <em>{item.skillName}</em>
                       </li>
                     </>
                   );

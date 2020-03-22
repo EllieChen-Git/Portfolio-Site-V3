@@ -21,7 +21,7 @@ export default class Projects extends Component {
                       <div className="item-wrap">
                         <a href="#modal-01">
                           <img
-                            src={`${item.imgurl}`}
+                            src={`${item.imgUrl}`}
                             className="item-img"
                             alt=""
                           />

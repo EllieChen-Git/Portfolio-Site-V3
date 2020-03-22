@@ -59,6 +59,7 @@ export default class NavBar extends Component {
                     return (
                       <li key={item.name}>
                         <a
+                          title={item.name}
                           href={item.url}
                           target="_blank"
                           rel="noopener noreferrer"
