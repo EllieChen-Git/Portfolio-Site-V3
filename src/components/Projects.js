@@ -15,7 +15,7 @@ export default class Projects extends Component {
               {portfolioData.projects &&
                 portfolioData.projects.map(item => {
                   return (
-                    <div className="columns projects-item">
+                    <div className="columns projects-item" key={item.name}>
                       <h5>{item.name}</h5>
 
                       <div className="item-wrap">
@@ -32,6 +32,7 @@ export default class Projects extends Component {
                           </div>
                         </a>
                       </div>
+
                       <Button
                         className="projects-button"
                         variant="outline-info"

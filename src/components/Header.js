@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-export default class NavBar extends Component {
+export default class Header extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
     return (

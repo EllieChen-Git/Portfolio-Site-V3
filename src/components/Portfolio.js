@@ -16,7 +16,7 @@ export default class Portfolio extends Component {
             {portfolioData.education &&
               portfolioData.education.map(item => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.degreeName}>
                     <div className="twelve columns">
                       <h3>{item.degreeName}</h3>
                       <p className="info">{item.universityName}</p>
@@ -44,7 +44,7 @@ export default class Portfolio extends Component {
             {portfolioData.work &&
               portfolioData.work.map(item => {
                 return (
-                  <div className="row item">
+                  <div className="row item" key={item.companyName}>
                     <div className="twelve columns">
                       <h3>{item.companyName}</h3>
                       <p className="info">
@@ -75,12 +75,12 @@ export default class Portfolio extends Component {
               {portfolioData.skills &&
                 portfolioData.skills.map(item => {
                   return (
-                    <>
+                    <div key={item.skillsDescription}>
                       <p>{item.skillsDescription}</p>
                       <li>
                         <em>{item.skillName}</em>
                       </li>
-                    </>
+                    </div>
                   );
                 })}
             </ul>

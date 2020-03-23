@@ -32,7 +32,6 @@ function Contact() {
   });
 
   useEffect(() => {
-    // Only perform interactive validation after submit
     if (Object.keys(fieldErrors).length > 0) {
       validate();
     }
@@ -73,7 +72,6 @@ function Contact() {
     setServerState({ submitting: true });
     axios({
       method: 'post',
-      // url: `https://formspree.io/${process.env.REACT_APP_FORMSPREE_ID}`,
       url: process.env.REACT_APP_FORMSPREE_URL,
       data: new FormData(form)
     })
@@ -81,7 +79,8 @@ function Contact() {
         handleServerResponse(
           true,
           'Thank you for contacting me. Will get back to you soon!',
-          form
+          form,
+          alert('Thank you for contacting me. Will get back to you soon!')
         );
       })
       .catch(r => {
@@ -91,55 +90,61 @@ function Contact() {
 
   return (
     <section id="contact">
-      <div className="row section-head">
-        <h1>Contact Me</h1>
-        <div className="nine columns">
-          <form onSubmit={handleOnSubmit} noValidate>
-            <input type="hidden" name="_subject" value="New submission!" />
-            <input type="text" name="_gotcha" style={{ display: 'none' }} />
-            <label htmlFor="name">Name:</label>
-            <input
-              id="name"
-              type="text"
-              name="name"
-              required
-              onChange={handleOnChange}
-              value={inputs.name}
-              placeholder="Please enter your name..."
-              className={fieldErrors.name ? 'error' : ''}
-            />
-            {renderFieldError('name')}
-            <label htmlFor="email">Email:</label>
-            <input
-              id="email"
-              type="email"
-              name="email"
-              required
-              onChange={handleOnChange}
-              value={inputs.email}
-              placeholder="Please enter your email..."
-              className={fieldErrors.email ? 'error' : ''}
-            />
-            {renderFieldError('email')}
-            <label htmlFor="message">Message:</label>
-            <textarea
-              id="message"
-              name="message"
-              onChange={handleOnChange}
-              value={inputs.message}
-              placeholder="Please leave me a message here...&#10;Leave me your phone number here if you wish to have a call back :)"
-              className={fieldErrors.message ? 'error' : ''}
-            ></textarea>
-            {renderFieldError('message')}
-            <button type="submit" disabled={serverState.submitting}>
-              Submit
-            </button>
-            {serverState.status && (
-              <p className={!serverState.status.ok ? 'errorMsg' : ''}>
-                {serverState.status.msg}
-              </p>
-            )}
-          </form>
+      <div className="row twelve">
+        <div className="twelve columns collapsed">
+          <h1>Contact Me :)</h1>
+          <div className="contact-form">
+            <form onSubmit={handleOnSubmit} noValidate>
+              <input type="hidden" name="_subject" value="New submission!" />
+              <input type="text" name="_gotcha" style={{ display: 'none' }} />
+              <label htmlFor="name">Name</label>
+              <input
+                id="name"
+                type="text"
+                name="name"
+                required
+                onChange={handleOnChange}
+                value={inputs.name}
+                placeholder="Please enter your name..."
+                className={fieldErrors.name ? 'error' : ''}
+              />
+              {renderFieldError('name')}
+              <label htmlFor="email">Email</label>
+              <input
+                id="email"
+                type="email"
+                name="email"
+                required
+                onChange={handleOnChange}
+                value={inputs.email}
+                placeholder="Please enter your email..."
+                className={fieldErrors.email ? 'error' : ''}
+              />
+              {renderFieldError('email')}
+              <label htmlFor="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                onChange={handleOnChange}
+                value={inputs.message}
+                placeholder="Feel free to leave me a message! &#10;Leave me your phone number here if you wish to have a call back :)"
+                className={fieldErrors.message ? 'error' : ''}
+              ></textarea>
+              {renderFieldError('message')}
+              {serverState.status && (
+                <p className={!serverState.status.ok ? 'errorMsg' : ''}>
+                  {serverState.status.msg}
+                </p>
+              )}
+              <button
+                className="contact-submit"
+                type="submit"
+                disabled={serverState.submitting}
+              >
+                Submit
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import NavBar from './components/NavBar';
+import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Projects from './components/Projects';
@@ -11,7 +11,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar portfolioData={portfolioData} />
+        <Header portfolioData={portfolioData} />
         <About portfolioData={portfolioData} />
         <Portfolio portfolioData={portfolioData} />
         <Projects portfolioData={portfolioData} />

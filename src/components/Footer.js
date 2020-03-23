@@ -4,13 +4,13 @@ export default class Footer extends Component {
     let portfolioData = this.props.portfolioData;
     return (
       <footer>
-        <div className="row">
+        <div className="row twelve">
           <div className="twelve columns">
             <ul className="social-links">
               {portfolioData.socialLinks &&
                 portfolioData.socialLinks.map(item => {
                   return (
-                    <li>
+                    <li key={item.url}>
                       <a href={item.url}>
                         <i className={item.className} />
                       </a>
