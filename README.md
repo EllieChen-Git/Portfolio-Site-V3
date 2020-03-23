@@ -88,6 +88,10 @@ I use Clockify to track my productive time in life (how much time I spend on lea
 - Styling: 3hrs
 - Deployment: 20mins
 
+**Update after Deployment**
+
+- Further styling: 1hr
+
 ---
 
-©2020 Ellie Chen - All Rights Reserved
+©2020 Ellie Chen - All Rights Reserved.

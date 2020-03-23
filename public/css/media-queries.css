@@ -282,9 +282,6 @@
 
   /* contact Section
    ----------------------------------------------------------------------- */
-  /* #contact {
-    padding-bottom: 66px;
-  } */
   #contact .section-head {
     margin-bottom: 12px;
   }
@@ -298,9 +295,6 @@
     display: block;
   }
 
-  /* #contact .contact-form {
-    width: 460px;
-  } */
   #contact .header-col {
     padding-top: 0;
   }
@@ -400,8 +394,19 @@
     margin: 0 6px;
   }
 
+  /* contact form 
+   -------------------------------------------------------------------- */
+
+  #contact .contact-form {
+    width: 50px;
+  }
+
   /* footer
    ------------------------------------------------------------------------ */
+
+  footer .twelve .columns {
+    padding: 0px;
+  }
 
   /* social links */
   footer .social-links {
