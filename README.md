@@ -2,23 +2,23 @@
 
 - GitHub Repo: https://github.com/EllieChen-Git/Portfolio-Site-V3
 
-- Deployed Site:
+- Deployed Site: https://elliechen-react.netlify.com/
 
 ---
 
 ### Versions of my portfolio site
 
-- [Ver 1](https://github.com/EllieChen-Git/Portfolio-Site_Ellie-Chen): A portfolio site built with pure HTML5, CSS3, SCSS and a little bit JavaScript. This is one of the student projects I made when I was studying with Coder Academy. At the time of building this site, I had only learned coding for a month.
+- [Ver 1 GitHub Repo](https://github.com/EllieChen-Git/Portfolio-Site_Ellie-Chen) | [Deployed Site](https://elliechen.netlify.com/): A portfolio site built with pure HTML5, CSS3, SCSS and a little bit JavaScript. This is one of the student projects I made when I was studying with Coder Academy. At the time of building this site, I had only learned coding for a month.
 
-- [Ver 2](https://github.com/EllieChen-Git/React-Practice-Portfolio-Site): A portfolio site built with React, Material UI, Bootstrap. This a React practice by following YouTube tutorial while I had my second study break with CA.
+- [Ver 2 GitHub Repo](https://github.com/EllieChen-Git/React-Practice-Portfolio-Site): A portfolio site built with React, Material UI, Bootstrap. This a React practice by following YouTube tutorial while I had my second study break with CA.
 
-- [Ver 3](https://github.com/EllieChen-Git/Portfolio-Site-V3): The current portfolio website in React.
+- [Ver 3 GitHub Repo](https://github.com/EllieChen-Git/Portfolio-Site-V3) | [Deployed Site](https://elliechen-react.netlify.com/): The current portfolio website in React.
 
 ---
 
 ### Building Process
 
-- This portfolio was built on template from [Rahul Bhatia](https://github.com/rbhatia46/React-Portfolio).
+- This portfolio was built on a template from [Rahul Bhatia](https://github.com/rbhatia46/React-Portfolio).
 
 - Then I adjusted the template into the way I wanted, filled in my data and also changed the data structure to suit my need.
 
@@ -30,15 +30,15 @@
 
 - I twisted the styling of this site a bit. Although it might be not obvious, but styling is always very time-consuming.
 
-- I deployed the site.
+- I deployed the site to Netlify with a environment variable.
 
 ---
 
 ### Challenges Encountered
 
-1. After I tried to import 'react-bootstrap', I encountered an uncaught type error due to the react version for the template is too old. Problem was solved after reading a [stack overflow post](https://stackoverflow.com/questions/58688463/getting-uncaught-typeerror-object-is-not-a-function-in-themeprovider-js-of) and update the React and React-Dom version from "^16.6.0" to "^16.6.8" for this project.
+1. After I tried to import 'react-bootstrap', I encountered an uncaught type error due to the react version for the template is too old. Problem was solved after reading [a stack overflow post](https://stackoverflow.com/questions/58688463/getting-uncaught-typeerror-object-is-not-a-function-in-themeprovider-js-of) and update the React and React-Dom version from "^16.6.0" to "^16.6.8" for this project.
 
-2. I tried to create an environment variable to store a piece of information, but failed to do so. With a bit [research](https://create-react-app.dev/docs/adding-custom-environment-variables/), I realised that :
+2. I tried to create an environment variable to store a piece of information, but failed to do so. With [a bit research](https://create-react-app.dev/docs/adding-custom-environment-variables/), I realised that :
 
 1) With React, the environment variable needs to start with 'REACT*APP*'
 2) I need to re-start my server every time I change the .env file

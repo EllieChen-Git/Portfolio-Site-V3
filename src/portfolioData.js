@@ -114,7 +114,7 @@ let portfolioData = {
       description: `React|Responsive Web Design`,
       imgUrl: '../images/projects/portfolio-site-v3.JPG',
       source: 'https://github.com/EllieChen-Git/Portfolio-Site-V3',
-      site: '#'
+      site: 'https://elliechen-react.netlify.com/'
     },
     {
       name: 'Pricing Portal',
