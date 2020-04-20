@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -19,7 +19,8 @@ export default class Footer extends Component {
                 })}
             </ul>
             <p>
-              &copy;{new Date().getFullYear()} Ellie Chen - All Rights Reserved
+              &copy;
+              {new Date().getFullYear()} Ellie Chen - All Rights Reserved
             </p>
           </div>
           <div id="go-top">

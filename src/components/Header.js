@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 export default class Header extends Component {
   render() {
     let portfolioData = this.props.portfolioData;
@@ -46,7 +46,7 @@ export default class Header extends Component {
               <h1 className="responsive-headline">
                 Hi, I am {portfolioData.name} :)
               </h1>
-              <h3 style={{ color: '#fff', fontFamily: 'sans-serif ' }}>
+              <h3 style={{ color: "#fff", fontFamily: "sans-serif " }}>
                 {portfolioData.intro}
                 <hr />
                 {portfolioData.location}
@@ -64,7 +64,7 @@ export default class Header extends Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          <i className={item.className}></i>
+                          <i className={item.className} />
                         </a>
                       </li>
                     );
@@ -75,7 +75,7 @@ export default class Header extends Component {
 
           <p className="scrolldown">
             <a className="smoothscroll" href="#about">
-              <i className="icon-down-circle"></i>
+              <i className="icon-down-circle" />
             </a>
           </p>
         </header>
