@@ -44,7 +44,7 @@ header {
 
 /* vertically center banner section */
 header:before {
-  content: '';
+  content: "";
   display: inline-block;
   vertical-align: middle;
   height: 100%;
@@ -62,14 +62,14 @@ header .banner-text {
   width: 100%;
 }
 header .banner-text h1 {
-  font: 90px/1.1em 'opensans-bold', sans-serif;
+  font: 90px/1.1em "opensans-bold", sans-serif;
   color: #fff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.8);
 }
 header .banner-text h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
+  font: 18px/1.9em "librebaskerville-regular", serif;
   color: #a8a8a8;
   margin: 0 auto;
   width: 70%;
@@ -142,7 +142,7 @@ header .scrolldown a:hover {
 
 /* nav-wrap */
 #nav-wrap {
-  font: 15px 'opensans-bold', sans-serif;
+  font: 15px "opensans-bold", sans-serif;
   width: 100%;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -222,7 +222,7 @@ ul#nav li.current a {
 }
 
 #about h2 {
-  font: 22px/30px 'opensans-bold', sans-serif;
+  font: 22px/30px "opensans-bold", sans-serif;
   color: #4ceddd;
   margin-bottom: 12px;
 }
@@ -280,7 +280,7 @@ ul#nav li.current a {
 }
 
 #portfolio h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -289,7 +289,7 @@ ul#nav li.current a {
   padding-bottom: 6px;
 }
 #portfolio h3 {
-  font: 25px/30px 'opensans-bold', sans-serif;
+  font: 25px/30px "opensans-bold", sans-serif;
 }
 
 #portfolio .header-col {
@@ -310,7 +310,7 @@ ul#nav li.current a {
 }
 
 #portfolio .info {
-  font: 16px/24px 'librebaskerville-italic', serif;
+  font: 16px/24px "librebaskerville-italic", serif;
   color: #6e7881;
   margin-bottom: 18px;
   margin-top: 9px;
@@ -320,7 +320,7 @@ ul#nav li.current a {
   margin-left: 5px;
 }
 #portfolio .date {
-  font: 15px/24px 'opensans-regular', sans-serif;
+  font: 15px/24px "opensans-regular", sans-serif;
   margin-top: 6px;
 }
 
@@ -333,7 +333,7 @@ ul#nav li.current a {
 }
 
 .skills li em {
-  font: 15px 'opensans-bold', sans-serif;
+  font: 15px "opensans-bold", sans-serif;
   color: #313131;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -352,7 +352,7 @@ ul#nav li.current a {
   /* padding-bottom: 60px; */
 }
 #projects h1 {
-  font: 30px/48px 'opensans-semibold', sans-serif;
+  font: 30px/48px "opensans-semibold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-align: center;
@@ -444,11 +444,11 @@ ul#nav li.current a {
   padding: 18px;
 }
 .projects-item .projects-item-meta h5 {
-  font: 14px/21px 'opensans-bold', sans-serif;
+  font: 14px/21px "opensans-bold", sans-serif;
   color: #fff;
 }
 .projects-item .projects-item-meta p {
-  font: 24px/18px 'opensans-light', sans-serif;
+  font: 24px/18px "opensans-light", sans-serif;
   line-height: 1.5;
   color: #c6c7c7;
   margin-bottom: 0;
@@ -477,17 +477,17 @@ ul#nav li.current a {
   padding: 12px 36px 18px 36px;
 }
 .popup-modal .description-box h4 {
-  font: 15px/24px 'opensans-bold', sans-serif;
+  font: 15px/24px "opensans-bold", sans-serif;
   margin-bottom: 12px;
   color: #111;
 }
 .popup-modal .description-box p {
-  font: 14px/24px 'opensans-regular', sans-serif;
+  font: 14px/24px "opensans-regular", sans-serif;
   color: #a1a1a1;
   margin-bottom: 12px;
 }
 .popup-modal .description-box .categories {
-  font: 11px/21px 'opensans-light', sans-serif;
+  font: 11px/21px "opensans-light", sans-serif;
   color: #a1a1a1;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -504,7 +504,7 @@ ul#nav li.current a {
 }
 .popup-modal .link-box a {
   color: #fff;
-  font: 11px/21px 'opensans-bold', sans-serif;
+  font: 11px/21px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   cursor: pointer;
@@ -585,7 +585,7 @@ ul#nav li.current a {
 /* Clearfix for .slides */
 .slides:before,
 .slides:after {
-  content: ' ';
+  content: " ";
   display: table;
 }
 .slides:after {
@@ -668,7 +668,7 @@ ul#nav li.current a {
 }
 
 #contact h1 {
-  font: 18px/24px 'opensans-bold', sans-serif;
+  font: 18px/24px "opensans-bold", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   text-align: center;
@@ -679,8 +679,8 @@ ul#nav li.current a {
   display: none;
 }
 #contact h1:before {
-  font-family: 'FontAwesome';
-  content: '';
+  font-family: "FontAwesome";
+  content: "";
   padding-right: 10px;
   font-size: 72px;
   line-height: 72px;
@@ -690,12 +690,12 @@ ul#nav li.current a {
 }
 
 #contact h4 {
-  font: 16px/24px 'opensans-bold', sans-serif;
+  font: 16px/24px "opensans-bold", sans-serif;
   color: #ebeeee;
   margin-bottom: 6px;
 }
 #contact p.lead {
-  font: 18px/36px 'opensans-light', sans-serif;
+  font: 18px/36px "opensans-light", sans-serif;
   padding-right: 3%;
 }
 #contact .header-col {
@@ -717,7 +717,7 @@ ul#nav li.current a {
   text-align: left;
 }
 #contact label {
-  font: 15px/24px 'opensans-bold', sans-serif;
+  font: 15px/24px "opensans-bold", sans-serif;
   margin: 12px 0;
   color: #ebeeee;
   display: inline-block;
@@ -790,7 +790,7 @@ ul#nav li.current a {
   display: block;
 }
 #twitter li b a {
-  font: 13px/36px 'opensans-regular', Sans-serif;
+  font: 13px/36px "opensans-regular", Sans-serif;
   color: #474747 !important;
   border: none;
 }
@@ -832,7 +832,7 @@ footer .copyright li {
   display: inline;
 }
 footer .copyright li:before {
-  content: '\2022';
+  content: "\2022";
   padding-left: 10px;
   padding-right: 10px;
   color: #095153;

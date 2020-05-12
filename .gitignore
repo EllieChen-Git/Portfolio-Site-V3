@@ -25,3 +25,5 @@ yarn-error.log*
 
 # add
 .prettierrc
+development-note.md
+/public/images/hidden

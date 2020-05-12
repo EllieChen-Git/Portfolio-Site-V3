@@ -4,7 +4,7 @@
 
 - GitHub Repo: https://github.com/EllieChen-Git/Portfolio-Site-V3
 
-- Deployed Site: https://elliechen-react.netlify.com/
+- Deployed Site: https://elliechen-react.netlify.app/
 
 ![portfolio-header](./docs/header.JPG)
 

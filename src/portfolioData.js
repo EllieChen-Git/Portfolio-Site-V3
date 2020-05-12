@@ -25,7 +25,7 @@ let portfolioData = {
     },
     {
       name: "Resume",
-      url: "./Ellie Chen - Resume - Developer.pdf",
+      url: "./Ellie-Chen-Resume_Web-Developer.pdf",
       className: "fa fa-file"
     },
     {
@@ -110,49 +110,48 @@ let portfolioData = {
       skillName: "Ruby, JavaScript, TypeScript"
     },
     {
-      skillsDescription: "Front End",
+      skillsDescription: "Front End Stacks",
       skillName: "HTML5, CSS3, SCSS, React, Angular, Bootstrap, Material UI"
     },
     {
-      skillsDescription: "Back End",
-      skillName:
-        "Ruby on Rails, Express.js, MongoDB, Node.js, REST API, PostgreSQL, Hasura"
+      skillsDescription: "Back End Stacks",
+      skillName: "Ruby on Rails,  MongoDB, Express,Node, REST API, PostgreSQL"
     },
     {
       skillsDescription: "Dependencies",
       skillName:
-        "Git, GitHub, AWS S3, deployment (Heroku, Netlify), payment processing (Stripe), wireframe (Balsamiq)"
+        "Git, GitHub, Agile Methodology, AWS S3, deployment (Heroku, Netlify), payment processing (Stripe), wireframe (Balsamiq)"
     }
   ],
   projects: [
     {
-      name: "Portfolio Site Ver 3.0",
-      description: "React|Responsive Web Design",
+      name: "Portfolio Website - Ellie Chen",
+      description: "React | Responsive Web Design",
       imgUrl: "../images/projects/portfolio-site-v3.JPG",
       source: "https://github.com/EllieChen-Git/Portfolio-Site-V3",
       site: "https://elliechen-react.netlify.app/"
     },
     {
-      name: "Pricing Portal",
-      description: "MERN Stack|Full Stack Business Solution",
+      name: "Pricing Portal - Image Annotation Tool",
+      description: "MERN Stack | Full Stack Business Solution",
       imgUrl: "../images/projects/pricing-portal.JPG",
       source: "https://github.com/EllieChen-Git/frontend-pricing-portal-ERN",
       site:
         "http://pricing-portal-prod-ern.s3-website-ap-southeast-2.amazonaws.com/"
     },
     {
-      name: "Aussie Beauty Market",
-      description: "Ruby on Rails|Two-sided Makeup Marketplace",
+      name: "Aussie Beauty Market - E-commerce App",
+      description: "Ruby on Rails | Two-sided Makeup Marketplace",
       imgUrl: "../images/projects/aussie-beauty-market.png",
       source: "https://github.com/EllieChen-Git/Aussie-Beauty-Market",
       site: "https://aussie-beauty-market.herokuapp.com/"
     },
     {
-      name: "Portfolio Site Ver 1.0",
-      description: "HTML5|CSS3",
-      imgUrl: "../images/projects/portfolio-site-v1.JPG",
-      source: "https://github.com/EllieChen-Git/Portfolio-Site_Ellie-Chen",
-      site: "https://elliechen.netlify.com/"
+      name: "COVID-19 Statistics & Data Visualisation",
+      description: "React Hooks, Context, Error Boundary | API consumption",
+      imgUrl: "../images/projects/covid-19-stats.png",
+      source: "https://github.com/EllieChen-Git/React-COVID-19-Stats",
+      site: "https://covid-19-stats-aus-tw.netlify.app/"
     }
   ]
 };
