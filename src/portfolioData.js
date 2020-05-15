@@ -25,7 +25,7 @@ let portfolioData = {
     },
     {
       name: "Resume",
-      url: "./Ellie-Chen-Resume_Web-Developer.pdf",
+      url: "./Ellie_Chen_Resume_Web_Developer.pdf",
       className: "fa fa-file"
     },
     {
