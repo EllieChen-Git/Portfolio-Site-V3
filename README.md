@@ -4,7 +4,7 @@
 
 - GitHub Repo: https://github.com/EllieChen-Git/Portfolio-Site-V3
 
-- Deployed Site: https://elliechen-react.netlify.app/
+- Deployed Site: https://elliechen.live/
 
 ![portfolio-header](./docs/header.JPG)
 
@@ -16,7 +16,7 @@
 
 - [Ver 2 GitHub Repo](https://github.com/EllieChen-Git/React-Practice-Portfolio-Site): A portfolio site built with React, Material UI, Bootstrap. This a React practice by following YouTube tutorial while I had my second study break with CA.
 
-- [Ver 3 GitHub Repo](https://github.com/EllieChen-Git/Portfolio-Site-V3) | [Deployed Site](https://elliechen-react.netlify.com/): The current portfolio website in React.
+- [Ver 3 GitHub Repo](https://github.com/EllieChen-Git/Portfolio-Site-V3) | [Deployed Site](https://elliechen.live/): The current portfolio website in React.
 
 ---
 
